@@ -1,0 +1,73 @@
+:root {
+  --main-bg-color: rgba(255, 255, 255, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heart-3-4, .heart-3-3, .subtract-6, .component-2-2, .heart02-7, .desktop-1-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-width: 1440px;
+  max-height: 1024px;
+}
+
+.union-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: auto;
+  max-width: 564px;
+  max-height: 498px;
+}
+
+@media (max-width: 1200px) {
+  .union-5 {
+    width: 90%;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .union-5 {
+    width: 95%;
+    max-width: 400px;
+  }
+
+  .desktop-1-1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .union-5 {
+    width: 100%;
+    max-width: 350px;
+  }
+}
